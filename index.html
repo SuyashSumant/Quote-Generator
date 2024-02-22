@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quote Of the Day</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+   
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <h2>Quote of the Day</h2>
+        <div class="line">
+
+            </div>
+        <blockquote id="quote">Loading...</blockquote>
+        <span id="author">Loading...</span>
+        <div>
+          <button class="btn" onclick="getquote(api_url)">New</button>
+          <button class="btn" id="one" onclick="post(l)">
+            <img src="img/instagram-logo.webp" alt="" />Post
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+
+  </body>
+</html>

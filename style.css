@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Playfair Display", serif;
+}
+body {
+  background: blanchedalmond;
+}
+
+.container {
+  display: flex;
+  /* margin: 100px; */
+  width: 600px;
+  height: 400px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 52px;
+  margin-top: 150px;
+  margin-left: 500px;
+  background: rgb(208, 104, 104);
+  padding: 10px;
+  /* transform: translate(-50%,-50%); */
+  box-shadow: 0px 10px 20px 0px rgb(233, 92, 76);
+}
+.container h2 {
+  font-size: 50px;
+  font-weight: bolder;
+  margin-bottom: 5px;
+  padding-top: 15px;
+  position: relative;
+  text-align: center;
+}
+
+.box blockquote {
+  font-size: 25px;
+  min-height: 120px;
+  display: flex;
+  margin: auto;
+  padding-top: 10px;
+  text-align: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.box blockquote::before {
+  content: '"';
+}
+
+.box blockquote::after {
+  content: '"';
+}
+
+.box span {
+  display: block;
+  /* margin-top: 5px; */
+  float: right;
+  position: relative;
+  font-weight: bold;
+}
+
+.box span::before {
+  content: " ";
+  width: 20px;
+  height: 2px;
+  background: black;
+  position: absolute;
+  top: 10px;
+  left: -30px;
+ 
+}
+
+.box div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  column-gap: 5px;
+}
+
+.btn {
+  background-color: burlywood;
+  height: 45px;
+  width: 150px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn img {
+  height: 27px;
+  width: 27px;
+  margin: 0px;
+  left: 2px;
+  margin-right: 10px;
+  justify-content: center;
+}
+.box button:nth-child(2) {
+  background-color: white;
+}
+
+.line { 
+  top: -30px;
+  height: 3px;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: relative;
+  width: 0px;
+}
